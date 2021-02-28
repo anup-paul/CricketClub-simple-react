@@ -1,0 +1,9 @@
+.main-container
+{
+    display: flex;
+}
+.players
+{
+    border-right: 2px solid black;
+    width: 60%;
+}
