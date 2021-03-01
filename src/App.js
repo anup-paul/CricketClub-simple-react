@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2 style={design}>Paul Brothers Cricket Team</h2>
+        <h2 style={design}>Paul Brother's Cricket club</h2>
         <HomePage></HomePage>
       </header>
     </div>
