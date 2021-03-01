@@ -1,0 +1,16 @@
+.add-player-box
+{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    background-color: rgb(188, 207, 226);
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px darkgray;
+}
+.add-player-box img
+{
+    border-radius: 50%;
+    width: 100px;
+}

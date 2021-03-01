@@ -1,0 +1,14 @@
+.box-container
+{
+    text-align: center;
+    margin-left: 30px;
+}
+.cart-info-design
+{
+    border: 2px solid rgb(33, 56, 85);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 300px;
+    background-color: steelblue;
+    color: white;
+}

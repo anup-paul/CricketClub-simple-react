@@ -1,5 +1,5 @@
 import AddPlayer from "../AddPlayer/AddPlayer";
-
+import './Cart.css'
 
 const Cart = (props) => {
     // console.log(props.cartInfo)
@@ -11,9 +11,11 @@ const Cart = (props) => {
         totalBudget = totalBudget + player.salary;
     }
     return (
-        <div>
-            <h3>Player Added : {cart.length}</h3>
-            <h3>Total budget : {totalBudget}</h3>
+        <div className="box-container ">
+            <div className="cart-info-design" >
+                <h3>Player Added : {cart.length}</h3>
+                <h3>Total budget : ${totalBudget}</h3>
+            </div>
             {
                 cart.map(addPlayer => <AddPlayer addPlayerInfo = {addPlayer} key = {addPlayer.id}></AddPlayer> )
             }
